@@ -2,7 +2,17 @@
 
 This branch illustrates an issue with [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin)
 
-:point_right: You can reproduce the issue with `npm run build`. :point_left:
+To reproduce the issue:
+
+```
+git clone https://github.com/alex996/webpack-manifest-demo.git
+
+git checkout mini-css-extract-plugin
+
+npm install
+
+npm run build
+```
 
 ## Simple Example
 
